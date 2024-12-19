@@ -37,6 +37,12 @@
           "imageWidth": 200
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "42142961-e47c-4cde-b946-1be30d7e48a5"
+      }
+    },
+    "owner": "sanjaydevtech"
   }
 }

@@ -9,7 +9,9 @@ import * as SplashScreen from 'expo-splash-screen';
 import React, { useEffect, useState, useCallback } from 'react';
 
 // Keep the splash screen visible while we fetch resources
-SplashScreen.preventAutoHideAsync();
+SplashScreen.preventAutoHideAsync()
+  .then(console.log) // printing null 
+  .catch(console.warn);
 
 // Set the animation options. This is optional.
 SplashScreen.setOptions({

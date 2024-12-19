@@ -22,7 +22,8 @@
     "react-native-screens": "~4.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@react-native-community/cli": "latest"
   },
   "private": true,
   "packageManager": "yarn@1.22.22"
